@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudMart — Cloud & DevOps Service Platform</title>
+    <meta
+      name="description"
+      content="CloudMart is a modern cloud services marketplace for deploying apps, managing Kubernetes clusters, configuring CI/CD, and monitoring infrastructure."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a class="brand" href="#home">
+          <span class="brand-mark">CM</span>
+          <span class="brand-text">CloudMart</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#services">Services</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#metrics">Metrics</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-cta" type="button">Start Deployment</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Cloud & DevOps Service Platform</p>
+            <h1>Deploy Cloud Infrastructure Faster with CloudMart</h1>
+            <p class="hero-text">
+              Build, ship, and monitor cloud-native apps with AWS, Kubernetes,
+              CI/CD pipelines, and real-time infrastructure insights.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#services">Start Deployment</a>
+              <a class="button button-secondary" href="#architecture">View Architecture</a>
+            </div>
+            <div class="feature-pill-group" aria-label="Tech stack">
+              <span>AWS</span>
+              <span>Docker</span>
+              <span>Kubernetes</span>
+              <span>Jenkins</span>
+              <span>Monitoring</span>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-hidden="true">
+            <div class="panel-card panel-glow">
+              <div class="panel-header">
+                <span class="panel-dot dot-blue"></span>
+                <span class="panel-dot dot-cyan"></span>
+                <span class="panel-dot dot-gray"></span>
+              </div>
+              <div class="panel-content">
+                <div class="panel-stat">
+                  <span>1,280+</span>
+                  <p>Deployments</p>
+                </div>
+                <div class="panel-item">
+                  <span>Cluster Health</span>
+                  <strong>98.7%</strong>
+                </div>
+                <div class="panel-item">
+                  <span>Pipeline success</span>
+                  <strong>94.3%</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trusted-by">
+        <div class="container">
+          <p>Trusted by cloud teams and startups</p>
+          <div class="logo-grid" aria-label="Trusted by logos">
+            <span>GitHub</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Grafana</span>
+            <span>AWS</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container section-head">
+          <p class="section-eyebrow">Core cloud services</p>
+          <h2>End-to-end deployment tooling for modern DevOps teams</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <div class="card-icon">☁️</div>
+            <h3>Cloud Application Hosting</h3>
+            <p>Deploy scalable web apps with AWS infrastructure, autoscaling, and traffic routing.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">📦</div>
+            <h3>Container & Kubernetes</h3>
+            <p>Build Docker images, deploy Kubernetes clusters, and manage pods with health checks.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">⚙️</div>
+            <h3>CI/CD Pipeline</h3>
+            <p>Automate builds, tests, and deployments using Jenkins, GitOps workflows, and reusable templates.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="card-icon">📊</div>
+            <h3>Monitoring & Alerts</h3>
+            <p>Track deployments, CPU usage, and cluster health with real-time dashboards and alerts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="architecture" id="architecture">
+        <div class="container architecture-grid">
+          <div class="architecture-copy">
+            <p class="section-eyebrow">DevOps architecture</p>
+            <h2>From code push to production observability</h2>
+            <p>CloudMart connects Git commits, CI builds, container delivery, Kubernetes orchestration, and monitoring in a single workflow.</p>
+          </div>
+          <div class="architecture-diagram" aria-label="Architecture diagram">
+            <div class="diagram-step">GitHub</div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">Jenkins</div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">Docker</div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">Kubernetes</div>
+            <div class="diagram-arrow">→</div>
+            <div class="diagram-step">Grafana</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">CloudMart</p>
+          <p>Modern cloud deployment tooling built for teams and recruiters who care about infrastructure excellence.</p>
+        </div>
+        <div class="footer-links">
+          <p class="footer-contact-label">Contact</p>
+          <p><strong>Yuvaraj M</strong></p>
+          <p>Cloud & DevOps Engineer</p>
+          <p class="footer-disclaimer">Disclaimer: This is for hands-on project purposes only.</p>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#architecture">Architecture</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

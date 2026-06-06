@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudmart-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloudmart
+  template:
+    metadata:
+      labels:
+        app: cloudmart
+    spec:
+      containers:
+      - name: cloudmart
+        image: yuvarajm18/cloudmart:v1
+        ports:
+        - containerPort: 80

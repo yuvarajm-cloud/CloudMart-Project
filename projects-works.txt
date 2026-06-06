@@ -1,0 +1,13 @@
+1 . build  a website
+2. added main.tf and created a instance , key pair, vpc-sg
+3. connect to ec2 > installed k8s master and woker
+     ONE EC2 - for Jenkins + master node
+     ONE EC2 - for woker node
+4 . Now going to the code and started docker engine added a dockerfle and builded
+ 
+
+
+nxt: downloading Jenkins , git, k8s
+
+
+
